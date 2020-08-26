@@ -1,0 +1,85 @@
+
+nav ul li {
+    padding-right: 15px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+
+nav  ul li a {
+    color: gray;
+    font-weight: 600;
+   
+}
+
+.carousel-caption{
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%,-50%);
+}
+
+#wall{
+    background: url('../Image/code-coding-computer-developer-574080.jpg') no-repeat center top;
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dark-img{
+    background: rgba(0,0,0,0.7);
+    min-height: 400px;
+}
+
+#Team img{
+    filter:grayscale(1);
+    cursor: pointer;
+}
+
+#Team img:hover{
+    filter:grayscale(0);
+}
+#Team h3{
+    color: blue;
+    cursor: pointer;
+}
+#Team h3:hover{
+    color: black;
+}
+
+#wwall{
+    background: url('../Image/iphone-dark-notebook-pen-34140.jpg') no-repeat center top;
+    min-height: 300px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wdark-img{
+    background: rgba(0,0,0,0.5);
+    min-height: 300px;
+}
+
+#wwall .whomein{
+    padding-top: 110px;
+}
+#price .card{
+    border: none;
+}
+
+#price .card:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+#author  img {
+    margin-top: -60px;
+}
+#author .card:hover{
+  background-color: skyblue;
+  
+}
+#author .card:hover{
+    filter: drop-shadow(8px 8px 10px gray);
+}
+
+#contact input{
+    border: none;
+}
+#contact textarea{
+    border: none;
+}
